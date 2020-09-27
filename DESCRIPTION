@@ -1,0 +1,15 @@
+Package: SepsisScores
+Title: Calculate SOFA, qSOFA, & APACHE II Scores and Mortality
+Version: 0.0.0.1
+Authors@R: 
+    person(given = "Mike",
+           family = "Woodworth",
+           role = c("aut", "cre"),
+           email = "mwoodwo@emory.edu",
+           comment = c(ORCID = "0000-0002-6181-4599"))
+Description: This package was developed to estimate sepsis scores and predicted risk of mortality for patients with COVID-19.  As the scores were developed and validated on sepsis patients more generally, these functions should be useful for other applications with appropriate attention to variable names.
+License: `use_mit_license()`
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1.9000
