@@ -110,8 +110,8 @@ sepsis_data <- sepsis_data %>% mutate(
   # RR, GCS, SBP
 
   gcs_qsofa_points = case_when(
-    gcs <15                            ~ 0,
-    gcs ==15                           ~ 1
+    gcs <15                            ~ 1,
+    gcs ==15                           ~ 0
   ),
   rr_qsofa_points = case_when(
     rr_max < 22                        ~ 0,
